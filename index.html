@@ -5,385 +5,776 @@
 <title>Tercera Aplicacion</title>
 
 <!--grupo CSS-->
-<link rel="stylesheet" href="css/app5.min.css"/>
+<link rel="stylesheet" href="css/QTQPHEstilo.min.css"/>
 <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
 <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/miestilo.css">
+<link rel="stylesheet" type="text/css" href="css/grid.css">
+<link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
 <!--grupo JavaScript-->
 <script src="js/jquery-1.11.2.min.js"></script>
 <script src="js/jquery.mobile-1.4.5.min.js"></script>
 <script src="js/acciones.js"></script>
 <script src="phonegap.js" type="text/javascript"></script>
 <script type="text/javascript">
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
 
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
 </script>
 
 </head>
 
-<body onLoad="MM_preloadImages('imagenes/4234.600x450.jpg')">
+<body>
 
-<div data-role="page" id="Principal" data-theme="a">
- <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
-      <h1>Día de la tierra</h1>
+<div data-role="page" id="Principal" data-theme="d">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+      <h1 align="center">QTQPH</h1>
+      <h2 align="center">¿Qué tienes?¿Qué puedes hacer?</h2>
  </div>
- <div data-role="main" class="ui-content">
-       <!-- Start WOWSlider.com -->
-<iframe src="visor/indexwow.html" style="width:300px;height:150px;max-width:90%;max-height:50%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
-<!-- End WOWSlider.com -->
-<p>&nbsp;</p>
-<h3>"La tierra ha estado ahí desde antes que nosotros. Es más vieja de lo que podemos imaginar, más sabia que todos nosotros. Por ende, no estemos ansiosos de darle fin; por el contrario, aprendamos de ella."</h3>
-<p align="right">Sara Belén García Sánchez</p>
-<p>&nbsp;</p>
-      <div data-role="collapsible" data-content-theme="false">
-       <h1>¿Qué es el Día de la Tierra?</h1>
-        <div>
-        <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','imagenes/tierra.jpg',1)"><img src="imagenes/110-001.png" width="150px" height="auto" id="Image2" align="right"/></a>Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos.</p>
-        <br>
-        <p>Su promotor instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra.
-        </p>
-        <br>
-        <p>Es un día celebrado, en muchos países, el 22 de abril.</p>
-        <br>
-        </div>
-  <div></div>
-  </div>
- </div> 
- 
- <div data-role="main" class="ui-content">
-      <div data-role="collapsible" data-content-theme="false">
-       <h1>Origenes del termino</h1>
-        <div>
-        <p>
-        De acuerdo con Gaylord Nelson, el término “Día de la Tierra”, era “un nombre obvio y lógico”, sugerido por “ciertas personas” en el otoño de 1969, incluido, afirma, “un amigo mío que había estado en el campo de las relaciones públicas y un ejecutivo de publicidad de New York”, Julian Koenig, quien había estado en el comité organizador de Nelson en 1969. La idea se le ocurrió a Koeing por la coincidencia entre su cumpleaños y el día escogido, el 22 de abril; en inglés, Earth Day (Día de la Tierra) rima con birthday (cumpleaños), la conexión parecía natural.
-        </p>
-        <br>
-        <p> Otros nombres circularon durante las preparaciones –el mismo Nelson continuó llamándolo National Environment Teach-In (Encuentro Nacional del Medio Ambiente), pero el coordinador nacional, Denis Hayes, usó el término Día de la Tierra en sus comunicados y la cobertura de prensa del evento fue prácticamente unánime en el uso del término Día de la Tierra, así que el nombre se quedó.</p>
-        <p style="display:block; text-align:center;"><a href="http://www.un.org/es/events/motherearthday/"><img src="imagenes/8498.jpg" width="auto" height="200px" align="left"></a></p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>Si quieres saber más, haz Click en la imagen<br>
-        </p>
-        </div>
-  <div></div>
-  </div>
- </div> 
- 
- <div data-role="main" class="ui-content">
-      <div data-role="collapsible" data-content-theme="false">
-       <h1>Ciudades verdes</h1>
-              <div>
-        <h3><img src="imagenes/Screen-Shot-2015-06-03-at-7.48.16-PM.png"" width="auto" height="200px" align="right">Índice de Ciudades Verdes de América Latina</h3>
-        <p>Se trata de una evaluación comparativa del impacto ecológico de las principales ciudades de América Latina, según la División de Población de las Naciones Unidas, Latinoamérica es la región en vías de desarrollo más urbanizada del mundo, se maneja un porcentaje del 81% de la población viviendo en zonas urbanas. Así se justifican las preocupaciones como la congestión de tráfico, políticas de uso de la tierra, disposición de desechos y calidad del aire.</p>
-        <br>
-        <p>Este proyecto de investigación es independiente, realizado por la Economist Intelligence Unit y patrocinado por Siemens. El reporte está dividido en cinco partes metodológicas; hace, además, un análisis profundo de Curitiba como ciudad líder en el tema. Se examinan los hallazgos respecto a las ocho categorías individuales del Índice: energía y CO2, uso de la tierra y edificios, transporte, desechos, agua, saneamiento, calidad del aire y gobernanza medioambiental. En México se incluyeron cuatro ciudades de las cuales las mejores calificadas fueron: Ciudad de México y Puebla, destacando a ésta por llevar a cabo un “proyecto ejemplar” llamado Monedero Ecológico por encima de Monterrey y Guadalajara.</p>
-        <br>
-        <br>
-          </div>
-</div>
-</div>
- 
+
   <div>
-    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
-       
-      <li class="ui-first-child ui-last-child">
-        <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-          <h2>Historia</h2>
-          <p>Y todo empezó así...</p>
-        </a>
-      </li>
-      <li class="ui-first-child ui-last-child">
-        <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-          <h2>Curiosidades</h2>
-          <p>Seguramente te sorprendera</p>
-        </a>
-      </li>
-      <li class="ui-first-child ui-last-child">
-        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-          <h2>Temas</h2>
-          <p>2016 es el año de los árboles</p>
-        </a>
-      </li>
-      <li class="ui-first-child ui-last-child">
-        <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-          <h2>En mi comunidad</h2>
-          <p>Estrategias para preservar la tierra</p>
-        </a>
-      </li>
-    </ul>
+      <div  class="presentacion01">
+          <div id="Entrar_button">
+          <a href="#Opciones">
+          <p>Ingresar</p>
+          </a>
+          </div>
+      </div>
   </div>
-  
-  <div data-role="footer" align="center" data-theme="a">
-    <div>
-      <img src="res/android/mdpi.png" width="46" height="46">
+  <div data-role="footer" align="center" data-theme="d">
+    <div class="row footer">
+      <div class="col span-1-of-2">
+          <nav>
+          <ul class="social-links">
+            <li>
+            <a href="www.facebook.com/AlmaNelyAdanChirinos"><i class="ion-social-facebook"></i></a>
+            </li>
+            <li>
+            <a href="www.youtube.com/"><i class="ion-social-youtube"></i></a>
+            </li>
+            <li>
+            <a href="www.instagram.com/Nely0317"><i class="ion-social-instagram"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col span-1-of-2">
+        <nav>
+          <div class="row" id="copyright">
+    <p>¡Contactanos!</p>
     </div>
-    <div>
-      <h4><strong>Aplicación cinco</strong></h4>
-      <h4><strong>Día de la tierra</strong></h4>
-      <h4>García Sánchez Sara Belén</h4>
+        </nav>
+      </div>
     </div>
-   </div>
-  </div>
-  
-    <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
-    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
-      <h1>Historia</h1>
     
+   </div>
+</div>
+<!--Menu de Opciones-->
+    <div data-role="page" id="Opciones" data-add-back-btn="true" data-theme="d">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+      <h1>Elige</h1>
     </div>
+    <!--Contenido-->
     <div data-role="content" align="justify">
-      <div>
-        
-        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/4234.600x450.jpg',1)"><img src="imagenes/5821.100x75.jpg" width="200px" height="137" id="Image4" align="right"/></a>En 1968, Morton Hilbert y el U.S. Public Health Service (Servicio de Salud Pública de E.E.U.U.), organizaron el Simposio de Ecología Humana, se realiza una conferencia por los nombrados anteriormente para unaasamblea o conferencia medioambiental para que estudiantes escucharan a científicos hablar sobre losefectos del deterioro ambiental en la salud humana.Este fue el primer antecedente del Día de la Tierra.Durante los siguientes dos años, Hilbert y sus estudiantes trabajaron para planear el primer Día de la Tierra. Surgieron otros esfuerzos como Survival Project(Proyecto para la Supervivencia), uno de los primeroseventoseducacionales de conciencia ambiental, que fue llevado a cabo en la UniversidadNorthwestern el 23 de enero de 1970. Este fue el primero de varios eventos realizados en campus universitarios por todo Estados Unidos. Así mismo, Ralph Nader empezó a hablar acerca de la importancia de la ecología en 1970.</p>
-        <br>
-        <p>La primera manifestación tuvo lugar el 22 de abril de 1970, promovida por el senadoryactivistaambientalGaylord Nelson, para la creación de una agencia ambiental. En esta convocatoria participaron dosmiluniversidades, diez mil escuelas (primarias y secundarias) y centenares de comunidades. La presión socialtuvo sus logros y el gobierno de los Estados Unidos creó la Environmental Protection Agency (Agencia de Protección Ambiental) y una serie de leyesdestinadas a la protección del medio ambiente.4</p>
-        <br>
-        <p>En 1972 se celebró la primera conferencia internacional sobre el medio ambiente. La Cumbre de la Tierra de Estocolmo, cuyo objetivo fue sensibilizar a los líderes mundiales sobre la magnitud de los problemas ambientales.</p>
-        <br>
+    <div class="ContenidoG">
+        <div class="MenuG">
+        <a href="#RecetarioIngredientes">
+        	<img src="imagenes/Ingredientes.jpg"/>
+        	</a>
+        </div>
+        <div class="MenuG">
+        <a href="#RecetarioLista">
+        	<img src="imagenes/ListaRecetas.jpg"/>
+        	</a>
+        </div>
+    </div>
+    </div>
+    <!--/Contenido-->
+    <div data-role="footer" align="center" data-theme="d">
+        <div class="row footer">
+      <div class="col span-1-of-2">
+          <nav>
+          <ul class="social-links">
+            <li>
+            <a href="www.facebook.com/AlmaNelyAdanChirinos"><i class="ion-social-facebook"></i></a>
+            </li>
+            <li>
+            <a href="www.youtube.com/"><i class="ion-social-youtube"></i></a>
+            </li>
+            <li>
+            <a href="www.instagram.com/Nely0317"><i class="ion-social-instagram"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col span-1-of-2">
+        <nav>
+          <div class="row" id="copyright">
+    <p>¡Contactanos!</p>
+    </div>
+        </nav>
       </div>
     </div>
-  <div data-role="footer" align="center" data-theme="a">
-    <div>
-      <img src="res/android/mdpi.png" width="46" height="46">
-    </div>
-    <div>
-      <h4><strong>Aplicación cinco</strong></h4>
-      <h4><strong>Día de la tierra</strong></h4>
-      <h4>García Sánchez Sara Belén</h4>
-    </div>
-   </div>
+   	</div>
   </div>
   
-  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
-    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
-      <h1>Curiosidades</h1>
+  <!--Listado por ingredientes (Primero dificultad)-->
+  
+  <div data-role="page" id="RecetarioIngredientes" data-add-back-btn="true" data-theme="d">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+      <h1>Elige</h1>
     </div>
+    <!--Contenido-->
     <div data-role="content" align="justify">
-      <div>
-        <p>En ocasiones, algunas fechas festivas coinciden con acuerdos políticos. Otras, simplemente por el parentesco de temas, son confundidas y/o malinterpretadas.  He aquí algunos ejemplos:</p>
-        <p>&nbsp;</p>
-        <p><br>
-        </p>
-        <div data-role="main" class="ui-content">
-          <div data-role="collapsible" data-content-theme="false">
-       <h1>Acuerdo de París</h1>
-        <div>
-        <p>Este año, el Día de la Madre Tierra coincide con la ceremonia de firma del Acuerdo de París sobre el cambio climático, que tendrá lugar en la sede de las Naciones Unidas en Nueva York. El Acuerdo fue aprobado por los 196 Estados partes de la Convención Marco sobre el Cambio Climático en París el 12 de diciembre de 2015. En el acuerdo, todos los países se comprometieron a trabajar para limitar el aumento de la temperatura global por debajo de los 2 grados centígrados, y dados los graves riesgos, a esforzarse por lograr que sea menos de 1,5 grados centígrados. La ceremonia se lleva a cabo en el primer día que el Acuerdo estará abierto para la firma, marcando el primer paso para asegurar que el Acuerdo entre en vigor jurídico tan pronto como sea posible</p>
-        <br>
-        <p>La Asamblea General, Reconociendo que Madre Tierra es una expresión común utilizada para referirse al planeta Tierra en diversos países y regiones, lo que demuestra la interdependencia existente entre los seres humanos, las demás especies vivas y el planeta que todos habitamos</p>
-        <br>
+    <div class="ContenidoG">
+        <div class="MenuG">
+        <a href="#Huevos">
+        	
+        <img src="imagenes/HIng.jpg"/>
+        </a>
         </div>
-  <div></div>
-  </div>
- </div> 
-
- <div data-role="main" class="ui-content">
-      <div data-role="collapsible" data-content-theme="false">
-       <h1>Manifestaciones durante el Día de la Tierra</h1>
-        <div>
-        <p>Durante las celebraciones del vigésimo aniversario del Día de la Tierra en 1990, mucha gente manifestó su compromiso de promover la armonía entre la naturaleza y la tierra.</p>
-        <br>
-        <p>
-        <ul>
-        <li>En Francia, los participantes formaron una cadena humana a lo largo del Río Loira, alcanzando unos 800 km de longitud, con el propósito de honrar uno de los últimos ríos limpios de Europa.</li>
-<li>En Asia, montañistas chinos, soviéticos y estadounidenses formaron un equipo para recolectar basura dejada en el Monte Everest por anteriores expediciones, reuniendo más de dos toneladas.</li>
-<li>Unas cinco mil personas en Italia bloquearon carreteras, como protesta por la contaminación producida por los automóviles.</li>
-<li>En Haití se declaró oficialmente al Día de la Tierra como un feriado nacional.</li>
-<li>Alrededor de 10 000 estudiantes participaron a una campaña de limpieza en Jordania.</li>
-<li>Cerca 35 000 ambientalistas japoneses se reunieron en la Isla de los Sueños, (una isla artificial, ubicada en la Bahía de Tokio, construida con basura) con el propósito de establecer un centro de reciclaje temporal.</li>
-        </ul>
-        </p>
-        <br>
+        <div class="MenuG">
+        <a href="#Sopas">
+        	
+            <img src="imagenes/SIng.jpg"/>
+            </a>
         </div>
-  <div></div>
-  </div>
- </div> 
- 
- <div data-role="main" class="ui-content">
-      <div data-role="collapsible" data-content-theme="false">
-       <h1>Celebraciones con las que hay controversia</h1>
-        <div>
-        <p>
-        
-        <ul>
-          <li>Día Mundial de la Naturaleza</li>
-          <li>Día del equinoccio</li>
-          <li>Día mundial del medio ambiente</li>
-        </ul>
-        
-        </p>
-        <br>
-        <a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','imagenes/dia_mundial_naturaleza.jpg',1)"><img src="imagenes/dia-medio-ambiente-960x623.jpg" width="200px" height="auto" id="Image6" align="center"/></a>
-        <br>
-        </div>
-  <div></div>
-  </div>
- </div> 
- </div>
     </div>
- <div data-role="footer" align="center" data-theme="a">
-    <div>
-      <img src="res/android/mdpi.png" width="46" height="46">
     </div>
-    <div>
-      <h4><strong>Aplicación cinco</strong></h4>
-      <h4><strong>Día de la tierra</strong></h4>
-      <h4>García Sánchez Sara Belén</h4>
+    <!--/Contenido-->
+    <div data-role="footer" align="center" data-theme="d">
+       <div class="row footer">
+      <div class="col span-1-of-2">
+          <nav>
+          <ul class="social-links">
+            <li>
+            <a href="www.facebook.com/AlmaNelyAdanChirinos"><i class="ion-social-facebook"></i></a>
+            </li>
+            <li>
+            <a href="www.youtube.com/"><i class="ion-social-youtube"></i></a>
+            </li>
+            <li>
+            <a href="www.instagram.com/Nely0317"><i class="ion-social-instagram"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col span-1-of-2">
+        <nav>
+          <div class="row" id="copyright">
+    <p>¡Contactanos!</p>
     </div>
-   </div>
-  </div>
-  
-  
-  <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
-    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
-      <h1>Temas</h1>
-    </div>
-    <div data-role="content" align="justify">
-      <div>
-        <h2 align="center">¿Y por qué los árboles?</h2>
-        <p> Esto se debe a que ayudan a:
-        <ul>
-          <li>Combatir el cambio climático</li>
-          <li>Respirar aire limpio</li>
-          <li>Contrarrestar la pérdida de especies.</li>
-          <li>Las comunidades y sus medios de vida</li>
-        </ul>
-        </p>
-      <h2 align="center">Temas de otros años</h2>
-      <p>
-      <table width="200" border="1" align="center">
-  <tr>
-    <td width="80">Año</td>
-    <td width="250">Tema</td>
-  </tr>
-  <tr>
-    <td>2016</td>
-    <td>Trees for the Earth</td>
-  </tr>
-  <tr>
-    <td>2015</td>
-    <td>«Llegó el momento de asumir el liderazgo»</td>
-  </tr>
-  <tr>
-    <td>2014</td>
-    <td>«Ciudades verdes»</td>
-  </tr>
-  <tr>
-    <td>2013</td>
-    <td>«El rostro del cambio climático»</td>
-  </tr>
-  <tr>
-    <td>2012</td>
-    <td>«Mobilize the Earth»</td>
-  </tr>
-  <tr>
-    <td>2011</td>
-    <td>«A Billion Acts of Green®»</td>
-  </tr>
-  <tr>
-    <td>2010</td>
-    <td>«Honoring 40 Years»</td>
-  </tr>
-  <tr>
-    <td>2009</td>
-    <td>«The Green Generation™»</td>
-  </tr>
-</table>
-      </p>
+        </nav>
       </div>
     </div>
-  <div data-role="footer" align="center" data-theme="a">
-    <div>
-      <img src="res/android/mdpi.png" width="46" height="46">
-    </div>
-    <div>
-      <h4><strong>Aplicación cinco</strong></h4>
-      <h4><strong>Día de la tierra</strong></h4>
-      <h4>García Sánchez Sara Belén</h4>
-    </div>
-   </div>
+   	</div>
   </div>
- </div>
- 
-<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
-    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
-      <h1>El día de la tierra: Atlixco</h1>
-    
+  
+  <!--Listado de recetas-->
+  
+  <div data-role="page" id="RecetarioLista" data-add-back-btn="true" data-theme="d">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+      <h1>Elige</h1>
     </div>
+    <!--Contenido-->
     <div data-role="content" align="justify">
-      <div>
-        <h2 align="center">Estrategias para preservar la tierra en Atlixco</h2>
-        <p>A continuación
-se plantearan algunas estrategias para al cuidado del suelo y las plantas. Actualmente, yo <img src="imagenes/atlixco pueblo magico puebla2 kiosko.jpg" width="200px" height="auto" align="right">resido en Atlixco, por lo que algunos de estos consejos no serían muy útiles en climas muy áridos, dado que es un lugar mayoritariamente templado. Pese a ello, seguramente encontraran algún consejo que les pueda servir. Los enlisto a continuación:</p>
-        <br>
-        <p>
-        
-        <ul>
-          <li>Infórmate. Conoce la problemática ambiental que hay en tu comunidad, en tu país y en tu planeta. Estar informado te permite saber qué hacer para proteger el medio ambiente.</li>
-          <li>Alza la voz.  No basta con saber: hay que pronunciarse, denunciar, cuestionar, proponer, pasar la voz, motivar...</li>
-          <li>Actúa. Cada una de tus acciones impacta negativa o positivamente nuestros ecosistemas. No creas que tirar una basura no importa porque sólo es una... no creas que levantar una basura no sirve porque sólo es una. Todo cuenta, así que cada cosa que hagas que sea en favor del planeta. El papel de la acción ciudadana es hacer valer nuestros derechos y actuar como testigos de la sociedad ante aquellos actos y hechos que lesionan tales derechos. En muchos casos ha sido la sociedad civil la que, con sus demandas, ha impulsado la creación de normas y programas ambientales, al exigir acciones concretas ante problemas determinados. En Greenpeace creemos que para lograr este fin se debe optar siempre por una estrategia de acción no-violenta. Esto implica el respeto por todas las personas (ya sean aliados, neutrales o adversarios).</li>
-          <li>Exige a los tomadores de decisiones, a tus gobiernos (municipales, locales o federal) políticas públicas en beneficio del medio ambiente.</li>
-        </ul>
-        
-        </p>
-        <br>
-        
-      <h2 align="center">En mi comunidad</h2>
-      <br>
-        <p>Yo vivo en la colonia los ángeles. En este caso se trata de una comunidad ganadera y agrícola. Ha sido tal la explotación que actualmente, más de la mitad de la colonia, son terrenos baldíos y secos. Lo que resta, son campos fértiles de las rancherías. Por tanto, he aquí algunos consejos para eliminar la erosión de la tierra, que es la principal causa de suelos áridos en mi comunidad:</p>
-        <p>
-        
-        <ul>
-          <li>Aplica la dosis de fertilizante ó abono orgánico con el tipo, la
-cantidad y en la época adecuada para aumentar su fertilidad.</li>
-          <li>Implementa medidas de mantenimiento de suelos para evitar la
-erosión y perdida de la fertilidad.</li>
-          <li>Reduce el uso de maquinaria y la sobrecarga animal para evitar
-la compactación del suelo.</li>
-          <li>Rota cultivos combinando gramíneas con leguminosas.</li>
-          <li>Usa materia orgánica como abono para tu suelo.</li>
-          <li>Fertiliza y realiza las podas necesarias.</li>
-          <li>Siembra en franjas.</li>
-        </ul>
-        
-        </p>
-      <p><img src="imagenes/bello_lote_en_lomas_de_temaxcalapa_atlixco_puebla_4850134418266796718.jpg" align="right" width="200px" height="auto"></p>
-      <br>
+    <div>
+    <!--Faciles-->
+    	<div class="ListadoDificultad">
+	<h2>Faciles</h2>
+        <div class="D_Opciones">
+        <a href="#HMexicana">
+        	
+        <img src="imagenes/HMexicana.png"/>
+        </a>
+        </div>
+        <div class="D_Opciones">
+        <a href="#SFideo">
+        	
+        <img src="imagenes/SFideo.jpg"/>
+        </a>
+        </div>
+        </div>
+        <!--Medias-->
+        <div class="ListadoDificultad">
+	<h2>Regulares</h2>
+        <div class="D_Opciones">
+        <a href="#HRancheros">
+        	
+            <img src="imagenes/HRancheros.jpg"/>
+            </a>
+        </div>
+        <div class="D_Opciones">
+        <a href="#SFria">
+        	
+        <img src="imagenes/SFria.jpg"/>
+        </a>
+        </div>
+        </div>
+        <!--Dificiles-->
+        <div class="ListadoDificultad">
+	<h2>Dificiles</h2>
+        <div class="D_Opciones">
+        <a href="#HPonchados">
+        	
+        <img src="imagenes/HPonchados.jpg"/>
+        </a>
+        </div class="ListadoDificultad">
+        <div class="D_Opciones">
+        <a href="#SGratinada">
+        	
+            <img src="imagenes/SGratinada.jpg"/>
+            </a>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!--/Contenido-->
+    <div data-role="footer" align="center" data-theme="d">
+        <div class="row footer">
+      <div class="col span-1-of-2">
+          <nav>
+          <ul class="social-links">
+            <li>
+            <a href="www.facebook.com/AlmaNelyAdanChirinos"><i class="ion-social-facebook"></i></a>
+            </li>
+            <li>
+            <a href="www.youtube.com/"><i class="ion-social-youtube"></i></a>
+            </li>
+            <li>
+            <a href="www.instagram.com/Nely0317"><i class="ion-social-instagram"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col span-1-of-2">
+        <nav>
+          <div class="row" id="copyright">
+    <p>¡Contactanos!</p>
+    </div>
+        </nav>
       </div>
     </div>
-  <div data-role="footer" align="center" data-theme="a">
-    <div>
-      <img src="res/android/mdpi.png" width="46" height="46">
-    </div>
-    <div>
-      <h4><strong>Aplicación cinco</strong></h4>
-      <h4><strong>Día de la tierra</strong></h4>
-      <h4>García Sánchez Sara Belén</h4>
-    </div>
-   </div>
+   	</div>
   </div>
+  <!--Separacion por dificultad-->
+  
+  <!--Despues de Listado por ingredientes-->
+  <!--Huevos-->
+  
+  <div data-role="page" id="Huevos" data-add-back-btn="true" data-theme="d">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+      <h1>Elige</h1>
+    </div>
+    <!--Contenido-->
+    <div data-role="content" align="justify">
+    <div class="ContenidoG">
+    	<div class="ListadoDificultad">
+	<h2>Faciles</h2>
+        <div class="D_Opciones">
+        <a href="#HMexicana">
+        	
+        <img src="imagenes/HMexicana.png"/>
+        </a>
+        </div>
+        </div>
+        <div class="ListadoDificultad">
+	<h2>Medias</h2>
+        <div class="D_Opciones">
+        <a href="#HRancheros">
+        	
+            <img src="imagenes/HRancheros.jpg">
+            </a>
+        </div>
+        </div>
+        <div class="ListadoDificultad">
+	<h2>Dificles</h2>
+        <div class="D_Opciones">
+        <a href="#HPonchados">
+        	
+            <img src="imagenes/HPonchados.jpg"/>
+            </a>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!--/Contenido-->
+    <div data-role="footer" align="center" data-theme="d">
+        <div class="row footer">
+      <div class="col span-1-of-2">
+          <nav>
+          <ul class="social-links">
+            <li>
+            <a href="www.facebook.com/AlmaNelyAdanChirinos"><i class="ion-social-facebook"></i></a>
+            </li>
+            <li>
+            <a href="www.youtube.com/"><i class="ion-social-youtube"></i></a>
+            </li>
+            <li>
+            <a href="www.instagram.com/Nely0317"><i class="ion-social-instagram"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col span-1-of-2">
+        <nav>
+          <div class="row" id="copyright">
+    <p>¡Contactanos!</p>
+    </div>
+        </nav>
+      </div>
+    </div>
+   	</div>
   </div>
+   
+   
+   <!--Sopas-->
+  
+  <div data-role="page" id="Sopas" data-add-back-btn="true" data-theme="d">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+      <h1>Elige</h1>
+    </div>
+    <!--Contenido-->
+    <div data-role="content" align="justify">
+    <div class="ContenidoG">
+    	<div class="ListadoDificultad">
+	<h2>Faciles</h2>
+        <div class="D_Opciones">
+        <a href="#SFideo">
+        	
+        <img src="imagenes/Sfideo.jpg"/>
+        </a>
+        </div>
+        </div>
+        <div class="ListadoDificultad">
+	<h2>Medias</h2>
+        <div class="D_Opciones">
+        <a href="#SFria">
+        	
+            <img src="imagenes/SFria.jpg"/>
+            </a>
+        </div>
+        </div>
+        <div class="ListadoDificultad">
+	<h2>Dificiles</h2>
+        <div class="D_Opciones">
+        <a href="#SGratinada">
+        	
+            <img src="imagenes/SGratinada.jpg"/>
+            </a>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!--/Contenido-->
+    <div data-role="footer" align="center" data-theme="d">
+        <div class="row footer">
+      <div class="col span-1-of-2">
+          <nav>
+          <ul class="social-links">
+            <li>
+            <a href="www.facebook.com/AlmaNelyAdanChirinos"><i class="ion-social-facebook"></i></a>
+            </li>
+            <li>
+            <a href="www.youtube.com/"><i class="ion-social-youtube"></i></a>
+            </li>
+            <li>
+            <a href="www.instagram.com/Nely0317"><i class="ion-social-instagram"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col span-1-of-2">
+        <nav>
+          <div class="row" id="copyright">
+    <p>¡Contactanos!</p>
+    </div>
+        </nav>
+      </div>
+    </div>
+   	</div>
+  </div>
+  <!--Recetas-->
+  <!--Receta2-->
+    <div data-role="page" id="HPonchados" data-add-back-btn="true" data-theme="d">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+      <h1>Nombre de la receta</h1>
+    </div>
+    <!--Contenido-->
+    <div>
+    	<div class="IngredientesR">
+            <h2>Ingredientes</h2>
+            <br>
+            <img src="imagenes/SIng.jpg"/>
+        </div>
+        <div class="Preparacion">
+        	<h2>Preparación</h2>
+        	<div class="Pasos">
+            <ul>
+            <li>
+            </li>
+            </ul>
+            </div>
+            <br>
+            <img src="imagenes/HPonchados1.jpg"/>
+        </div>
+    </div>
+    <!--/Contenido-->
+    <div data-role="footer" align="center" data-theme="d">
+        <div class="row footer">
+      <div class="col span-1-of-2">
+          <nav>
+          <ul class="social-links">
+            <li>
+            <a href="www.facebook.com/AlmaNelyAdanChirinos"><i class="ion-social-facebook"></i></a>
+            </li>
+            <li>
+            <a href="www.youtube.com/"><i class="ion-social-youtube"></i></a>
+            </li>
+            <li>
+            <a href="www.instagram.com/Nely0317"><i class="ion-social-instagram"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col span-1-of-2">
+        <nav>
+          <div class="row" id="copyright">
+    <p>¡Contactanos!</p>
+    </div>
+        </nav>
+      </div>
+    </div>
+   	</div>
+  </div>
+  
+  <!--Receta5-->
+     <div data-role="page" id="HRancheros" data-add-back-btn="true" data-theme="d">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+      <h1>Huevos Rancheros</h1>
+    </div>
+    <!--Contenido-->
+    <div>
+    	<div class="IngredientesR">
+            <h2>Ingredientes</h2>
+            <br>
+            <img src="imagenes/HIng.jpg"/>
+        </div>
+        <div class="Preparacion">
+        	<h2>Preparación</h2>
+            <br>
+        	<div class="Pasos">
+            <ul>
+            <li><br></li><li>Poner en una olla agua y vaciar las sopas (que él agua tape las sopas)
+Hervir hasta que la sopa esté blandita, antes de apagar poner sal al gusto,
+			</li><li><br></li>
+            <li>Una vez ya blandita la sopa en un coladero vaciar la sopa y tirar el agua</li><li><br></li>
+            <li>
+Licuar el jitomate, cebolla y ajo con poca agua, colar en la cacerola con aceite, dejar hervir unos minutos, a fuego bajo.</li>
+            <li><br></li><li>
+Agregar un poco de crema, condimentar con sal, agregar la sopa ya escurrida.</li>
+            <li><br></li><li>
+Dejar enfriar y servir, espolvorear con un poco de queso.<li><br></li>
+			</li>
+            </ul>
+            </div>
+            <br>
+            <div class="imgF">
+            <img src="imagenes/HRancheros1.jpg"/>
+            </div>
+        </div>
+    </div>
+    <!--/Contenido-->
+    <div data-role="footer" align="center" data-theme="d">
+        <div class="row footer">
+      <div class="col span-1-of-2">
+          <nav>
+          <ul class="social-links">
+            <li>
+            <a href="www.facebook.com/AlmaNelyAdanChirinos"><i class="ion-social-facebook"></i></a>
+            </li>
+            <li>
+            <a href="www.youtube.com/"><i class="ion-social-youtube"></i></a>
+            </li>
+            <li>
+            <a href="www.instagram.com/Nely0317"><i class="ion-social-instagram"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col span-1-of-2">
+        <nav>
+          <div class="row" id="copyright">
+    <p>¡Contactanos!</p>
+    </div>
+        </nav>
+      </div>
+    </div>
+   	</div>
+  </div>
+  
+  <!--Receta4-->
+    <div data-role="page" id="HMexicana" data-add-back-btn="true" data-theme="d">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+      <h1>Huevos a la Mexicana</h1>
+    </div>
+    <!--Contenido-->
+    <div>
+    	<div class="IngredientesR">
+            <h2>Ingredientes</h2>
+            <br>
+            <img src="imagenes/HIng.jpg"/>
+        </div>
+        <div class="Preparacion">
+        	<h2>Preparación</h2>
+            <br>
+        	<div class="Pasos">
+            <ul>
+            <li><br></li><li>Poner en una olla agua y vaciar las sopas (que él agua tape las sopas)
+Hervir hasta que la sopa esté blandita, antes de apagar poner sal al gusto,
+			</li><li><br></li>
+            <li>Una vez ya blandita la sopa en un coladero vaciar la sopa y tirar el agua</li><li><br></li>
+            <li>
+Licuar el jitomate, cebolla y ajo con poca agua, colar en la cacerola con aceite, dejar hervir unos minutos, a fuego bajo.</li>
+            <li><br></li><li>
+Agregar un poco de crema, condimentar con sal, agregar la sopa ya escurrida.</li>
+            <li><br></li><li>
+Dejar enfriar y servir, espolvorear con un poco de queso.<li><br></li>
+			</li>
+            </ul>
+            </div>
+            <br>
+            <div class="imgF">
+            <img src="imagenes/HMexicana1.jpg"/>
+            </div>
+        </div>
+    </div>
+    <!--/Contenido-->
+    <div data-role="footer" align="center" data-theme="d">
+        <div class="row footer">
+      <div class="col span-1-of-2">
+          <nav>
+          <ul class="social-links">
+            <li>
+            <a href="www.facebook.com/AlmaNelyAdanChirinos"><i class="ion-social-facebook"></i></a>
+            </li>
+            <li>
+            <a href="www.youtube.com/"><i class="ion-social-youtube"></i></a>
+            </li>
+            <li>
+            <a href="www.instagram.com/Nely0317"><i class="ion-social-instagram"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col span-1-of-2">
+        <nav>
+          <div class="row" id="copyright">
+    <p>¡Contactanos!</p>
+    </div>
+        </nav>
+      </div>
+    </div>
+   	</div>
+  </div>
+  
+  
+  <!--Receta3-->
+    <div data-role="page" id="SGratinada" data-add-back-btn="true" data-theme="d">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+      <h1>Sopa Gratinada</h1>
+    </div>
+    <!--Contenido-->
+    <div>
+    	<div class="IngredientesR">
+            <h2>Ingredientes</h2>
+            <br>
+            <img src="imagenes/SIng.jpg"/>
+        </div>
+        <div class="Preparacion">
+        	<h2>Preparación</h2>
+            <br>
+        	<div class="Pasos">
+            <ul>
+            <li><br></li><li>Poner en una olla agua y vaciar las sopas (que él agua tape las sopas)
+Hervir hasta que la sopa esté blandita, antes de apagar poner sal al gusto,
+			</li><li><br></li>
+            <li>Una vez ya blandita la sopa en un coladero vaciar la sopa y tirar el agua</li><li><br></li>
+            <li>
+Licuar el jitomate, cebolla y ajo con poca agua, colar en la cacerola con aceite, dejar hervir unos minutos, a fuego bajo.</li>
+            <li><br></li><li>
+Agregar un poco de crema, condimentar con sal, agregar la sopa ya escurrida.</li>
+            <li><br></li><li>
+Dejar enfriar y servir, espolvorear con un poco de queso.<li><br></li>
+			</li>
+            </ul>
+            </div>
+            <br>
+            <div class="imgF">
+            <img src="imagenes/SGratinada1.jpg"/>
+            </div>
+        </div>
+    </div>
+    <!--/Contenido-->
+    <div data-role="footer" align="center" data-theme="d">
+        <div class="row footer">
+      <div class="col span-1-of-2">
+          <nav>
+          <ul class="social-links">
+            <li>
+            <a href="www.facebook.com/AlmaNelyAdanChirinos"><i class="ion-social-facebook"></i></a>
+            </li>
+            <li>
+            <a href="www.youtube.com/"><i class="ion-social-youtube"></i></a>
+            </li>
+            <li>
+            <a href="www.instagram.com/Nely0317"><i class="ion-social-instagram"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col span-1-of-2">
+        <nav>
+          <div class="row" id="copyright">
+    <p>¡Contactanos!</p>
+    </div>
+        </nav>
+      </div>
+    </div>
+   	</div>
+  </div>
+  
+  
+  <!--Receta1-->
+    <div data-role="page" id="SFideo" data-add-back-btn="true" data-theme="d">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+      <h1>Sopa Fideo</h1>
+    </div>
+    <!--Contenido-->
+    <div>
+    	<div class="IngredientesR">
+            <h2>Ingredientes</h2>
+            <br>
+            <img src="imagenes/SIng.jpg"/>
+        </div>
+        <div class="Preparacion">
+        	<h2>Preparación</h2>
+            <br>
+        	<div class="Pasos">
+            <ul>
+            <li><br></li><li>Poner en una olla agua y vaciar las sopas (que él agua tape las sopas)
+Hervir hasta que la sopa esté blandita, antes de apagar poner sal al gusto,
+			</li><li><br></li>
+            <li>Una vez ya blandita la sopa en un coladero vaciar la sopa y tirar el agua</li><li><br></li>
+            <li>
+Licuar el jitomate, cebolla y ajo con poca agua, colar en la cacerola con aceite, dejar hervir unos minutos, a fuego bajo.</li>
+            <li><br></li><li>
+Agregar un poco de crema, condimentar con sal, agregar la sopa ya escurrida.</li>
+            <li><br></li><li>
+Dejar enfriar y servir, espolvorear con un poco de queso.<li><br></li>
+			</li>
+            </ul>
+            </div>
+            <br>
+            <div class="imgF">
+            <img src="imagenes/SFideo1.jpg"/>
+            </div>
+        </div>
+    </div>
+    <!--/Contenido-->
+    <div data-role="footer" align="center" data-theme="d">
+        <div class="row footer">
+      <div class="col span-1-of-2">
+          <nav>
+          <ul class="social-links">
+            <li>
+            <a href="www.facebook.com/AlmaNelyAdanChirinos"><i class="ion-social-facebook"></i></a>
+            </li>
+            <li>
+            <a href="www.youtube.com/"><i class="ion-social-youtube"></i></a>
+            </li>
+            <li>
+            <a href="www.instagram.com/Nely0317"><i class="ion-social-instagram"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col span-1-of-2">
+        <nav>
+          <div class="row" id="copyright">
+    <p>¡Contactanos!</p>
+    </div>
+        </nav>
+      </div>
+    </div>
+   	</div>
+  </div>
+  
+  
+  <!--Receta1-->
+    <div data-role="page" id="SFria" data-add-back-btn="true" data-theme="d">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+      <h1>Sopa Fría</h1>
+    </div>
+    <!--Contenido-->
+    <div>
+    	<div class="IngredientesR">
+            <h2>Ingredientes</h2>
+            <br>
+            <img src="imagenes/SIng.jpg"/>
+        </div>
+        <div class="Preparacion">
+        	<h2>Preparación</h2>
+            <br>
+        	<div class="Pasos">
+            <ul>
+            <li><br></li><li>Poner en una olla agua y vaciar las sopas (que él agua tape las sopas)
+Hervir hasta que la sopa esté blandita, antes de apagar poner sal al gusto,
+			</li><li><br></li>
+            <li>Una vez ya blandita la sopa en un coladero vaciar la sopa y tirar el agua</li><li><br></li>
+            <li>
+Licuar el jitomate, cebolla y ajo con poca agua, colar en la cacerola con aceite, dejar hervir unos minutos, a fuego bajo.</li>
+            <li><br></li><li>
+Agregar un poco de crema, condimentar con sal, agregar la sopa ya escurrida.</li>
+            <li><br></li><li>
+Dejar enfriar y servir, espolvorear con un poco de queso.<li><br></li>
+			</li>
+            </ul>
+            </div>
+            <br>
+            <div class="imgF">
+            <img src="imagenes/SFria1.jpg"/>
+            </div>
+        </div>
+    </div>
+    <!--/Contenido-->
+    <div data-role="footer" align="center" data-theme="d">
+        <div class="row footer">
+      <div class="col span-1-of-2">
+          <nav>
+          <ul class="social-links">
+            <li>
+            <a href="www.facebook.com/AlmaNelyAdanChirinos"><i class="ion-social-facebook"></i></a>
+            </li>
+            <li>
+            <a href="www.youtube.com/"><i class="ion-social-youtube"></i></a>
+            </li>
+            <li>
+            <a href="www.instagram.com/Nely0317"><i class="ion-social-instagram"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col span-1-of-2">
+        <nav>
+          <div class="row" id="copyright">
+    <p>¡Contactanos!</p>
+    </div>
+        </nav>
+      </div>
+    </div>
+   	</div>
+  </div>
+  
+  <!--</div>-->
   
   
 </body>
